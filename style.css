@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+nav {
+    background: #333333;
+    height: 80px;
+    width: 100%;
+}
+
+lable.logo {
+    font-size: 31px;
+    line-height: 80px;
+    padding: 0 40px;
+    font-weight: bold;
+    color: #A9A9A9;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 4px;
+}
+
+a.active,
+a:hover {
+    background: #D96F25;
+    transition: .5s;
+}
+
+.ii {
+    background-image: url("./saud.jpeg");
+    height: 510px;
+    width: 100%;
+}
+
+.orangee {
+    background-color: #D96F25;
+    height: 200px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 90px;
+}
