@@ -1,9 +1,15 @@
+@font-face {
+    scr: url (./fonts/Lobster-Regular.ttf);
+    font-family: lob;
+}
+
 * {
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
@@ -22,6 +28,8 @@ lable.logo {
     padding: 0 40px;
     font-weight: bold;
     color: #A9A9A9;
+    font-family: lob, /*cursive*/
+    ;
 }
 
 nav ul {
@@ -36,7 +44,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #e9e8e8;
     font-size: 17px;
     text-transform: uppercase;
     padding: 7px 13px;
@@ -51,6 +59,8 @@ a:hover {
 
 .ii {
     background-image: url("./saud.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 510px;
     width: 100%;
 }
@@ -62,4 +72,10 @@ a:hover {
     text-align: center;
     font-size: 30px;
     padding-top: 90px;
+}
+
+.foo {
+    height: 100px;
+    background: #333333;
+    color: #A9A9A9;
 }
