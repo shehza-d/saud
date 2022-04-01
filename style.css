@@ -1,6 +1,6 @@
 @font-face {
-    scr: url (./fonts/Lobster-Regular.ttf);
-    font-family: lob;
+    font-family: 'lob';
+    src: url('./fonts/Lobster-Regular.ttf');
 }
 
 * {
@@ -26,10 +26,9 @@ lable.logo {
     font-size: 31px;
     line-height: 80px;
     padding: 0 40px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #A9A9A9;
-    font-family: lob, /*cursive*/
-    ;
+    font-family: 'lob', cursive ;
 }
 
 nav ul {
