@@ -40,6 +40,7 @@ nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+  
 }
 
 nav ul li a {
@@ -47,6 +48,7 @@ nav ul li a {
     font-size: 17px;
     text-transform: uppercase;
     padding: 7px 13px;
+    border: 1px solid #D96F25;
     border-radius: 4px;
 }
 
@@ -77,4 +79,17 @@ a:hover {
     height: 100px;
     background: #333333;
     color: #A9A9A9;
+}
+
+.threeparacontainer{
+    /* border: 3px solid red; */
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.threeparaitem{
+    width: 250px;
+    /* border: 1px solid #D96F25; */
 }
